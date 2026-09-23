@@ -8,7 +8,7 @@ Reproduire une page web à partir d'une maquette visuelle fournie, en se rapproc
 
 ## Maquette de référence
 
-![Maquette](TP1.png)
+![Maquette](assets/TP1.png)
 
 ## Technologies utilisées
 

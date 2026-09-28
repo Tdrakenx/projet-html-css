@@ -1,20 +1,18 @@
+html {
+  font-size: 20px;
+}
+
 body {
   margin: 0;
-
   font-family: Arial, sans-serif;
 }
 
 header {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   background-color: #3a4d73;
-
   padding: 0 30px;
-
   height: 100px;
 }
 
@@ -24,49 +22,42 @@ header {
 
 .menu-list {
   display: flex;
-
   list-style: none;
-
   gap: 20px;
-
   margin: 0;
-
   padding: 0;
 }
 
 .menu-list li a {
   text-decoration: none;
-
   color: white;
-
   font-weight: bold;
-
   padding: 10px;
 }
 
 main {
   margin: 0;
-
   padding: 0;
 }
 
 .image-full {
   width: 100%;
-
   height: 90px;
-
   object-fit: cover;
 }
 
 h1 {
+  font-size: 3rem;
   margin: 20px;
-
   padding: 10px 0px;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 section {
   margin: 20px;
-
   border-radius: 5px;
 }
 
@@ -83,9 +74,7 @@ section {
 
 .contenu-horizontal figure {
   margin: 0;
-
   text-align: center;
-
   flex-shrink: 0;
 }
 
@@ -93,33 +82,30 @@ section {
   height: 100px;
 }
 
+figcaption {
+  font-size: 0.8rem;
+}
+
 table {
   width: 100%;
-
   border-collapse: collapse;
-
   border: 1px solid;
 }
 
 th,
 td {
   padding: 10px;
-
   border: 1px solid;
 }
 
 th {
   background-color: rgb(211, 211, 211);
-
   color: black;
-
   text-align: center;
 }
 
 footer {
   background-color: #3a4d73;
-
   color: white;
-
   padding: 20px;
 }
